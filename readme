@@ -1,2 +1,3 @@
 spin up using: uvicorn hard:app --reload --port 8000
 test of the authentication: curl -i -u admin:secret123 http://127.0.0.1:8000/items
+and Swagger on 127.0.0.1:8000/docs
